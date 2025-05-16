@@ -118,7 +118,7 @@ The future work includes retraining a GARF-like pipeline using the features augm
 
 With the rougly assembled model, we can use SAMPart3D to extract 3D segmentation-aware embedding. Go to the SAMPart3D folder:
 ```bash
-cd GARF
+cd SAMPart3D
 ```
 
 #### Installation of SAMPart3D
