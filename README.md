@@ -110,6 +110,10 @@ After running the script, the evaluation results will be stored in `logs/GARF/ev
 #### Visualization of GARF
 I use my visualization tool to apply the transformation to the fragmented breaking bad models and obtained the reassembled model. However, this tools have not been open source. I have included some `.glb` model in `mydata` for evaluation. This `.glb` can be used in the SAMPart3D 3D segmentation-aware embedding extraction.
 
+A example of semantic segmentated breaking bad claw, the colors are based on the clustering result of points 3D segmentation-aware features.
+
+<img src="images/claw2.jpg" width="600">
+
 #### Training of GARF
 
 The future work includes retraining a GARF-like pipeline using the features augmented with the 3D segmentation-aware features. This will be implemented after I manage to extract the 3D segmentation-aware features of high quality. Please check the technical report for a further explanation. 
