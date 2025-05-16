@@ -233,9 +233,10 @@ chmod +x glass.sh
 run
 ```
 
-5. **MAYA is required to animate the process.** A short gif of the glass fracture example can be viewed below, from which you can observe the realistic fracture effect. 
+5. **MAYA is required to animate the process.** A short gif of the glass fracture example can be viewed below, from which you can observe the realistic fracture effect. If the gif failed to render, please check out `images/scene.gif`. 
 
-![Glass Fracture Animation](images/scene.gif)
+<!-- ![Glass Fracture Animation](images/scene.gif) -->
+<img src="images/scene.gif" alt="Glass Fracture Animation" width="500">
 
 ---
 
