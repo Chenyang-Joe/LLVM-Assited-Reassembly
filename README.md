@@ -11,7 +11,7 @@ This project explores methods to improve the **GARF** 3D reassembly framework us
 
 **GARF** is a generalizable flow-matching-based method for 3D fragment reassembly.
 - Part 1 introduces my codes that contributes to the vanilla GARF project.
-- Part 2, as the major part of the repository, showcases **my extended work** built upon GARF, with a focus on:
+- Part 2, **as the major part of the repository**, showcases **my extended work** built upon GARF, with a focus on:
   - Integrating **3D segmentation-aware features** using SAMPart3D
   - Generating **high-fidelity fractured datasets** using physically-based simulations (FractureBEM)
 
@@ -46,8 +46,8 @@ As demonstrated in the figure below, this method proposes a self-improving pipel
 
 
 #### Resources:
-- GARF: I provide a breif implementation of GARF for my experiment `GARF/`. For the full implementation, please check the original GARF project[https://github.com/ai4ce/GARF](https://github.com/ai4ce/GARF)
-- Folder: `SAMPart3D/` — contains implementation of the first two stages of SAMPart3D for my project.
+- GARF: I provide a breif implementation of GARF for my experiment `GARF/`. For the full implementation, please check the original GARF project [https://github.com/ai4ce/GARF](https://github.com/ai4ce/GARF)
+- Folder: `SAMPart3D/` — contains implementation of the first two stages of [SAMPart3D](https://github.com/Pointcept/SAMPart3D) for my project.
 - Testing data: `mydata/` — includes `.glb` model inputs. This is generated from BreakingBad dataset. 
 - Please follow the guidelines under the folder to run example demonstration. The experiment results in my report can be replicated by using the models in `mydata/`.
 
@@ -176,7 +176,7 @@ The mesh segmentation results will be saved in `exp/${DATASET_NAME}/${EXP_NAME}/
 
 #### Recursively Inference
 
-In the future, a GARF-like model will be trained and is able to use these SAMPart3D features as input to generate better assembled models recursively.
+In the future, a GARF-like model will be trained and is able to use these SAMPart3D features as inputs to generate better assembled models recursively.
 
 
 ---
@@ -233,8 +233,18 @@ chmod +x glass.sh
 run
 ```
 
-5. **MAYA is required to animate the process. A short gif of the glass fracture example can be viewed below.**
+5. **MAYA is required to animate the process.** A short gif of the glass fracture example can be viewed below, from which you can observe the realistic fracture effect. 
 
-<img src="image/scene.gif" alt="Glass Fracture Animation" width="500">
+![Glass Fracture Animation](images/scene.gif)
 
 ---
+
+## Acknowledgements
+
+This project builds upon the contributions of several open-source efforts. I gratefully acknowledge the following repositories:
+
+- [GARF](https://github.com/ai4ce/GARF): A generalizable 3D reassembly framework based on flow matching.  
+- [SAMPart3D](https://github.com/Pointcept/SAMPart3D): A semantic segmentation framework that distills 2D segmentation into 3D point clouds for part-aware understanding.  
+- [FractureRB](https://github.com/david-hahn/FractureRB): A physically-based fracture simulation system for generating realistic fractured object datasets.
+
+We thank the authors of these projects for making their work publicly available.
