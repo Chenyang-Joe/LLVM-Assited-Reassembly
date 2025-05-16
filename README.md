@@ -43,7 +43,7 @@ This method proposes a **self-improving pipeline** that combines:
 #### Resources:
 - GARF: [https://github.com/ai4ce/GARF](https://github.com/ai4ce/GARF)
 - Folder: `SAMPart3D/` — contains implementation of the first two stages of SAMPart3D
-- Testing data: `SAMPart3D/mydata/` — includes `.glb` model inputs
+- Testing data: `mydata/` — includes `.glb` model inputs. This is generated from BreakingBad dataset.
 
 ---
 
@@ -58,16 +58,3 @@ Check the repo for:
 - Sample fracture scenes and meshes
 
 ---
-
-<!-- ## 📦 Repository Structure
-
-```bash
-LLVM-Assisted-Reassembly/
-│
-├── SAMPart3D/                # Semantic segmentation + 3D feature extraction
-│   └── mydata/               # Sample models used for testing
-│
-├── fracture_demos/           # Generated samples from FractureRB/BEM
-├── docker/                   # Docker environment for fracture simulation
-├── scripts/                  # Run scripts, training utilities, etc.
-└── README.md                 # You're here! -->
