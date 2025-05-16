@@ -10,9 +10,10 @@ This project explores methods to improve the **GARF** 3D reassembly framework us
 ## 📌 Overview
 
 - **GARF** is a generalizable flow-matching-based method for 3D fragment reassembly.
-- This repository showcases **my extended work** built upon GARF, with a focus on:
+- Part 1 introduces my codes that contributes to the vanilla GARF project.
+- Part 2, as the major part of the repository, showcases **my extended work** built upon GARF, with a focus on:
   - Integrating **3D segmentation-aware features** using SAMPart3D
-  - Generating **high-fidelity fractured datasets** using physically-based simulations (FractureRB, FractureBEM)
+  - Generating **high-fidelity fractured datasets** using physically-based simulations (FractureBEM)
 
 ---
 
